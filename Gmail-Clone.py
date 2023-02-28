@@ -75,18 +75,18 @@ def tahunng(fx):
 ###---[ANGGAP INI LOGO ]---###
 def logo(n):
 	return str(f""" 
-      
-      
-     
+░█▀▀█ ▒█░░░ ░█▀▀█ ▒█▀▄▀█ ▀█▀ ▒█▄░▒█ 
+▒█▄▄█ ▒█░░░ ▒█▄▄█ ▒█▒█▒█ ▒█░ ▒█▒█▒█ 
+▒█░▒█ ▒█▄▄█ ▒█░▒█ ▒█░░▒█ ▄█▄ ▒█░░▀█
 {50*"="}""")
 def logo2():
 	return str(f"""
-      
-      
-     
+░█▀▀█ ▒█░░░ ░█▀▀█ ▒█▀▄▀█ ▀█▀ ▒█▄░▒█ 
+▒█▄▄█ ▒█░░░ ▒█▄▄█ ▒█▒█▒█ ▒█░ ▒█▒█▒█ 
+▒█░▒█ ▒█▄▄█ ▒█░▒█ ▒█░░▒█ ▄█▄ ▒█░░▀█
 {50*"="}
 {M}>{K}>{H}> {P}CHECKING FOR LOGIN {H}>{K}>{M}>""")
-os.system('xdg-open https://facebook.com/groups/3206414299669908//')
+os.system('xdg-open https://facebook.com/groups/2333311560163796/')
 ###---[ TANGGAL ]---###
 sasi = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
 out = 'Linux-4.9.227-perf+-aarch64-with-libc'
