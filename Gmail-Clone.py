@@ -77,9 +77,7 @@ def logo(n):
 	return str(f""" 
       
       
-     �
-
-
+     
 {50*"="}""")
 def logo2():
 	return str(f"""
@@ -108,7 +106,7 @@ tanggal = str(hari)+'-'+str(bulan)+'-'+str(tahun)
 sim_ok = f'OK-{hari}-{bulan}-{tahun}.txt'
 sim_cp = f'CP-{hari}-{bulan}-{tahun}.txt'
 warna_warni_biasa=random.choice([H,K,M,O,B,U])
-garis = f" {P}[{warna_warni_biasa}•{P}]"
+garis = f" {P}[{warna_warni_biasa}â€¢{P}]"
 
 ###---[ APPEND ]---###
 dump, sandi, metode = [], [], []
@@ -494,7 +492,7 @@ def crack(idf,pwx,url,awal):
 					ok+=1
 					open('OK/'+sim_ok,'a').write(data+'\n')
 					if "coki" in akunok:
-						print("\n %s>> %s|%s %s• %s "%(H,idf,pw,warna_warni_biasa,tahunng(idf)))
+						print("\n %s>> %s|%s %sâ€¢ %s "%(H,idf,pw,warna_warni_biasa,tahunng(idf)))
 						print("\r %s>> %s "%(H,kuki))
 						print("\r  %s*--> %s"%(P,ua))
 						os.popen('play-audio data/woke.mp3')
@@ -552,7 +550,7 @@ def cek_opsi(idf,pw,ua):
 		res = ses.post('https://mbasic.facebook.com'+form.get('action'),data=data2,headers=h2).text
 		ress = parser(res, 'html.parser')
 		if 'Lihat detail login yang ditampilkan. Ini Anda?' in str(ress.find('title').text):
-			akun += f'\n [{hh}>{P}] {hh}hore akun tap yes🎉{P}                       '
+			akun += f'\n [{hh}>{P}] {hh}hore akun tap yesðŸŽ‰{P}                       '
 		else:
 			if(len(sesi(res))==0):
 				if 'Enter Login Code to Continue' in str(ress.find('title').text):
